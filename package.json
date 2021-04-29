@@ -1,0 +1,119 @@
+{
+  "_from": "n2words",
+  "_id": "n2words@1.9.0",
+  "_inBundle": false,
+  "_integrity": "sha512-jMCf4FE1me5SOWt30375a2rygjxDDG8LqZoP+FSAB75LvrFRQVQFTcxGp/vxEhKOevwyZ9nx/Rnq4K22jbCFaQ==",
+  "_location": "/n2words",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "n2words",
+    "name": "n2words",
+    "escapedName": "n2words",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/n2words/-/n2words-1.9.0.tgz",
+  "_shasum": "620175a708a338dcb60a986d408cd9be1020be8f",
+  "_spec": "n2words",
+  "_where": "C:\\Users\\erick",
+  "author": {
+    "name": "Wael TELLAT"
+  },
+  "ava": {
+    "files": [
+      "test/**/*",
+      "!test/i18n"
+    ],
+    "require": [
+      "esm"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/forzagreen/n2words/issues"
+  },
+  "bundleDependencies": false,
+  "c8": {
+    "all": true,
+    "include": [
+      "lib/"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
+  "deprecated": false,
+  "description": "Convert numbers to words, in multiple languages",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "ava": "^3.13.0",
+    "babel-loader": "^8.1.0",
+    "c8": "^7.3.5",
+    "core-js": "^3.6.5",
+    "eslint": "^7.12.1",
+    "eslint-plugin-ava": "^11.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.7.6",
+    "eslint-plugin-node": "^11.1.0",
+    "esm": "^3.2.25",
+    "terser-webpack-plugin": "^5.0.3",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  },
+  "homepage": "https://github.com/forzagreen/n2words#readme",
+  "keywords": [
+    "n2words",
+    "convert",
+    "number",
+    "word",
+    "text",
+    "natural",
+    "language",
+    "english",
+    "french",
+    "spanish",
+    "german",
+    "portuguese",
+    "italian",
+    "turkish",
+    "russian",
+    "czech",
+    "norwegian",
+    "danish",
+    "polish",
+    "ukrainian",
+    "lithuanian",
+    "latvian",
+    "arabic",
+    "hebrew",
+    "korean",
+    "dutch",
+    "serbian",
+    "farsi",
+    "persian",
+    "chinese",
+    "hungarian"
+  ],
+  "license": "MIT",
+  "main": "dist/n2words.js",
+  "name": "n2words",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forzagreen/n2words.git"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress",
+    "coverage": "c8 ava",
+    "lint": "eslint --config .eslintrc.json lib/ test/ --ext .mjs",
+    "test": "ava --verbose"
+  },
+  "version": "1.9.0"
+}
